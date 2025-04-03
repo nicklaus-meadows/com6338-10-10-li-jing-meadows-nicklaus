@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Space Exploration | Group 2</title>
-    <!-- Bootstrap 5 -->
+    <title>Photo of the Day</title>
+    <!-- boostrap 5 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- navbar -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
@@ -52,50 +53,36 @@
       </div>
     </nav>
 
-    <!-- Main body -->
+    <!-- main body -->
     <div class="container-fluid p-0">
       <img
-        src="imgs/NASA-Banner.webp"
+        src="imgs/photo-of-day-banner.jpeg"
         class="img-fluid w-100"
-        alt="nasa-home-banner"
+        alt="Placeholder Banner"
       />
     </div>
+    <div class="content container py-5">
+      <h2>NASA Astronomy Picture of the Day</h2>
+      <div class="title"></div>
+      <div class="description"></div>
+      <div class="d-flex justify-content-center align-items-center my-3">
+        <img id="nasa-image" class="img-fluid" alt="NASA Image" />
+      </div>
+    </div>
 
-    <h1>Welcome to Space Exploration</h1>
-    <h2>Explore the wonders of space with the below links.</h2>
-    <h3>
-      <a
-        href="photoOfTheDay.html"
-        aria-label="link to photo of the day from nasa api call"
-        target="_self"
-        >Photo of the Day</a
-      >
-    </h3>
-    <p>
-      NASA's Astronomy Picture of the Day (APOD) showcases breathtaking images
-      of space, featuring galaxies, nebulae, planets, and other cosmic wonders.
-      Each photo is accompanied by a brief explanation from professional
-      astronomers, making it a daily source of inspiration and discovery for
-      space enthusiasts.
-    </p>
-    <h3><a href="neos.html">Near Earth Objects</a></h3>
-    <p>
-      Near Earth Objects by definition are asteroids or comets that orbit close
-      to Earth within 1.3 Astronomical Units from the Sun.
-    </p>
-
-    <!-- Footer Section -->
+    <!-- footer section -->
     <footer class="bg-dark text-light py-3">
       <div class="container-fluid text-center">
         Group 2 | Jing Li, Nicklaus Meadows
       </div>
     </footer>
 
-    <!-- Bootstrap 5 for design portion -->
+    <!-- BOOTSTRAP 5 FOR DESIGN PORTION -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="pOTd.js"></script>
   </body>
 </html>
