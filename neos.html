@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Near Earth Objects</title>
+    <!-- boostrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="imgs/NASAlogo.png"
+            alt="group 2 nasa logo"
+            width="ms-auto"
+            height="100"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photoOfTheDay.html">Photo of the Day</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="neos.html">Near Earth Objects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main body -->
+    <div class="container-fluid p-0">
+      <img
+        src="imgs/neo-banner.jpeg"
+        class="img-fluid w-100"
+        alt="Placeholder Banner"
+      />
+    </div>
+    <div class="content container py-5">
+      <h2>Near-Earth Objects (NEOs)</h2>
+      <div id="neo-container" class="row"></div>
+    </div>
+
+    <!-- footer section -->
+    <footer class="bg-dark text-light py-3">
+      <div class="container-fluid text-center">
+        Group 2 | Jing Li, Nicklaus Meadows
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP 5 FOR DESIGN PORTION -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="neos.js"></script>
+  </body>
+</html>
